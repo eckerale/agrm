@@ -14,7 +14,7 @@ net install agrm, from("https://raw.githubusercontent.com/eckerale/agrm/master")
 
 ## Syntax
 ```Stata
-[by:varlist] agrm varlist [if] [in] [weight] [, generate(newvar) categories(integer) bounds(numlist) missing(numlist) detail noprint]
+[by varlist:] agrm varlist [if] [in] [weight] [, generate(newvar) categories(integer) bounds(numlist) missing(numlist) detail noprint]
 ```
 
 ## Options
