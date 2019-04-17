@@ -70,4 +70,4 @@ Please email to alejandro.ecker@mzes.uni-mannheim.de if you observe any problems
 
 ## How to cite
 Thanks for citing this Stata module as follows:<br>
-Ecker, Alejandro. 2011. agrm: Stata module to calculate van der Eijk's measure of agreement. Available from https://github.com/eckerale/stata/tree/master/agrm.
+Ecker, Alejandro. 2011. agrm: Stata module to calculate van der Eijk's measure of agreement. Available from "https://github.com/eckerale/agrm".
