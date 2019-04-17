@@ -22,7 +22,7 @@
 You can install the latest version of {bf:agrm} by executing the following code:
 
 {p 4 4 2}
-{cmd:. net install agrm, from("https://raw.githubusercontent.com/eckerale/stata/master")}
+{cmd:. net install agrm, from("https://raw.githubusercontent.com/eckerale/agrm/master")}
 
 
 {title:Description}
@@ -99,7 +99,7 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 {synopt:{cmd:r(sd)}}standard deviation{p_end}
 {synopt:{cmd:r(A)}}measure of agreement "A"{p_end}
 
-{title:Refereces}
+{title:References}
 
 {p 4 4 2}
 van der Eijk, Cees. 2001. "Measuring Agreement in Ordered Rating Scales." {it:Quality and Quantity} 35 (3): 325-341.
@@ -114,5 +114,5 @@ A. Ecker, Mannheim Centre for European Social Research, University of Mannheim. 
 {title:How to cite}
 
 {p 4 4 2}
-Thanks for citing this Stata module as follows: Ecker, Alejandro. 2011. agrm: Stata module to calculate van der Eijk's measure of agreement. Available from {browse "https://github.com/eckerale/stata/tree/master/agrm"}.
+Thanks for citing this Stata module as follows: Ecker, Alejandro. 2011. agrm: Stata module to calculate van der Eijk's measure of agreement. Available from {browse "https://github.com/eckerale/agrm"}.
 
