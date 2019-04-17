@@ -1,0 +1,10 @@
+v 1.1.4
+d agrm. Stata module to calculate van der Eijk's measure of agreement.
+d A. Ecker, Mannheim Centre for European Social Research, University of Mannheim.
+d agrm calculates Cees van der Eijk's measure of agreement as a weighted average of the degree of agreement among respondents. After installation, see help agrm.
+d
+d Distribution-Date: 20111010
+d
+d Support: alejandro.ecker@mzes.uni-mannheim.de
+f agrm/agrm.ado
+f agrm/agrm.sthlp
