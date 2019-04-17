@@ -60,7 +60,7 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 
 **r(A)**      measure of agreement 'A'
 
-## Refereces
+## References
 van der Eijk, Cees. 2001. 'Measuring Agreement in Ordered Rating Scales.' *Quality and Quantity* 35 (3): 325-341.
 
 ## Author
