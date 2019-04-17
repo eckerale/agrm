@@ -7,7 +7,7 @@ Stata module to calculate van der Eijk's measure of agreement.
 `agrm` calculates Cees van der Eijk's (2001) alternative measure of agreement 'A'.  This measure is a weighted average of the degree of agreement among respondents that exists in the simple component parts – layers – into which any frequency distribution can be disaggregated.  It is especially useful when calculating agreement in ordered rating scales and easily interpretable, ranging from -1 (perfect bimodality) to +1 (perfect unimodality).
 
 ## Installation
-You can install the latest version of agrm by executing the following code:
+You can install the latest version of `agrm` by executing the following code:
 ```Stata
 net install agrm, from("https://raw.githubusercontent.com/eckerale/agrm/master")
 ```
