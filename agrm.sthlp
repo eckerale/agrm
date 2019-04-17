@@ -13,7 +13,7 @@
 {title:Syntax}
 
 {pstd}
-[by:{varlist}] {cmd:agrm} {varlist} {ifin} {weight} [{cmd:,} {cmdab:gen:erate(}{it:newvar}{cmd:)} {cmdab:cat:egories(}{it:integer}{cmd:)} {cmdab:bou:nds(}{it:numlist}{cmd:)} {cmdab:m:issing(}{it:numlist}{cmd:)} {cmdab:d:etail} {cmdab:noprint}]
+[by {varlist}:] {cmd:agrm} {varlist} {ifin} {weight} [{cmd:,} {cmdab:gen:erate(}{it:newvar}{cmd:)} {cmdab:cat:egories(}{it:integer}{cmd:)} {cmdab:bou:nds(}{it:numlist}{cmd:)} {cmdab:m:issing(}{it:numlist}{cmd:)} {cmdab:d:etail} {cmdab:noprint}]
 
 
 {title:Installation}
