@@ -38,8 +38,9 @@ Please note that the `agrm` command is unable to handle both negative category v
 For more detailed information on the measure of agreement, see van der Eijk (2001).
 
 ## Examples
-The examples below are based on left-right placements of political parties in a subset of the 2019 EES voter study (Schmitt et al. 2022).
+The examples below are based on left-right placements of political parties by voters in a subset of the 2019 EES voter study (Schmitt et al. 2022).
 
+    . net get agrm
     . import delimited "EES_2019_subset.csv", clear
 
     . bysort countrycode: agrm q13_1, missing(96 98)

@@ -75,9 +75,10 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 {title:Examples}
 
 {p 4 4 2}
-The examples below are based on left-right placements of political parties in a subset of the 2019 EES voter study (Schmitt et al. 2022).
+The examples below are based on left-right placements of political parties by voters in a subset of the 2019 EES voter study (Schmitt et al. 2022).
 
 {p 4 4 2}
+{cmd:. net get agrm}
 {cmd:. import delimited "EES_2019_subset.csv", clear}
 
 {p 4 4 2}
