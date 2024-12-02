@@ -48,7 +48,7 @@ The examples below are based on left-right placements of political parties in a 
 
     . agrm q13_5, missing(96 98) cat(13)
 
-    . bysort countrycode: agrm q13_1, bounds(0 1) missing(96 98) detail
+    . bysort countrycode: agrm q13_1, bounds(0 1) missing(96 98) detail 
 
 ## Saved results
 `agrm` saves the following in r():
