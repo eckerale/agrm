@@ -38,14 +38,17 @@ Please note that the `agrm` command is unable to handle both negative category v
 For more detailed information on the measure of agreement, see van der Eijk (2001).
 
 ## Examples
+The examples below are based on left-right placements of political parties in a subset of the 2019 EES voter study (Schmitt et al. 2022).
 
-    . bysort country: agrm socsec
+    . import delimited "EES_2019_subset.csv", clear
 
-    . agrm tax environment, generate(agreement)
+    . bysort countrycode: agrm q13_1, missing(96 98)
 
-    . agrm socsec, categories(5)
+    . agrm q13_1 q13_2, generate(agreement) missing(96 98)
 
-    . agrm tax, bounds(0 1) missing(99) detail
+    . agrm q13_5, missing(96 98) cat(13)
+
+    . bysort countrycode: agrm q13_1, bounds(0 1) missing(96 98) detail
 
 ## Saved results
 `agrm` saves the following in r():
@@ -63,10 +66,12 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 ## References
 van der Eijk, Cees. 2001. 'Measuring Agreement in Ordered Rating Scales.' *Quality and Quantity* 35 (3): 325-341.
 
+Schmitt, Hermann, Sara B. Hobolt, Wouter van der Brug and Sebastian A. Popa. 2022. "European Parliament Election Study 2019, Voter Study." *GESIS, Cologne. ZA7581 Data file Version 2.0.1*, "https://doi.org/10.4232/1.13846".
+
 ## Author
 A. Ecker<br>
-Mannheim Centre for European Social Research, University of Mannheim.<br>
-Please email to alejandro.ecker@mzes.uni-mannheim.de if you observe any problems.
+Institute of Political Science, Heidelberg University.<br>
+Please email to alejandro.ecker@uni-heidelberg.de if you observe any problems.
 
 ## How to cite
 Thanks for citing this Stata module as follows:<br>
