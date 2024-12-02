@@ -2,7 +2,7 @@
 
 capture program drop agrm
 
-*! agrm v1.1.4 AEcker 10october2011
+*! agrm v1.1.5 AEcker 29november2024
 
 program agrm, byable(recall) rclass
 	version 9.0

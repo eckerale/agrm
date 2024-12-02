@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 1.1.4 10 October 2011}{...}
+{* *! version 1.1.5 29 November 2024}{...}
 {cmd: help agrm}
 {hline}
 
@@ -75,16 +75,22 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 {title:Examples}
 
 {p 4 4 2}
-{cmd:. bysort country: agrm socsec}
+The examples below are based on left-right placements of political parties in a subset of the 2019 EES voter study (Schmitt et al. 2022).
 
 {p 4 4 2}
-{cmd:. agrm tax environment, generate(agreement)}
+{cmd:. import delimited "EES_2019_subset.csv", clear}
 
 {p 4 4 2}
-{cmd:. agrm socsec, categories(5)}
+{cmd:. bysort countrycode: agrm q13_1, missing(96 98)}
 
 {p 4 4 2}
-{cmd:. agrm tax, bounds(0 1) missing(99) detail}
+{cmd:. agrm q13_1 q13_2, generate(agreement) missing(96 98)}
+
+{p 4 4 2}
+{cmd:. agrm q13_5, missing(96 98) cat(13)}
+
+{p 4 4 2}
+{cmd:. bysort countrycode: agrm q13_1, bounds(0 1) missing(96 98) detail}
 
 
 {title:Saved results}
@@ -104,11 +110,13 @@ For more detailed information on the measure of agreement, see van der Eijk (200
 {p 4 4 2}
 van der Eijk, Cees. 2001. "Measuring Agreement in Ordered Rating Scales." {it:Quality and Quantity} 35 (3): 325-341.
 
+{p 4 4 2}
+Schmitt, Hermann, Sara B. Hobolt, Wouter van der Brug and Sebastian A. Popa. 2022. "European Parliament Election Study 2019, Voter Study." {it:GESIS, Cologne. ZA7581 Data file Version 2.0.1}, {browse "https://doi.org/10.4232/1.13846"}.
 
 {title:Author}
 
 {p 4 4 2}
-A. Ecker, Mannheim Centre for European Social Research, University of Mannheim. Please email to {browse "mailto:alejandro.ecker@mzes.uni-mannheim.de":alejandro.ecker@mzes.uni-mannheim.de} if you observe any problems.
+A. Ecker, Institute of Political Science, Heidelberg University. Please email to {browse "mailto:alejandro.ecker@uni-heidelberg.de":alejandro.ecker@uni-heidelberg.de} if you observe any problems.
 
 
 {title:How to cite}

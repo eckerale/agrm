@@ -1,3 +1,3 @@
 v 1.0
-d A. Ecker, Mannheim Centre for European Social Research, University of Mannheim.
+d A. Ecker, Institute of Political Science, Heidelberg University.
 p agrm Stata module to calculate van der Eijk's measure of agreement
